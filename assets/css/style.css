@@ -26,6 +26,16 @@ header{
   position: sticky;
 }
 
+.logo {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.logo span{
+  color: rgb(58, 184, 46)
+}
+
 nav{
   width: 20%;
 }
@@ -33,6 +43,7 @@ nav{
 .nav ul {
   display: flex;
   justify-content: space-around;
+  gap: 1rem;
 }
 
 .nav ul li a{
