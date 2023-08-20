@@ -22,9 +22,10 @@
     <!-- MENÚ DE NAVEGACIÓN -->
     <nav class="nav">
       <ul>
-        <li><a href="">Inicio</a></li>
-        <li><a href="">Sobre Nosotros</a></li>
-        <li><a href="">Contacto</a></li>
+        <li><a href="#hero-area">Inicio</a></li>
+        <li><a href="#info-area">Sobre Nosotros</a></li>
+        <li><a href="#products-area">Planes</a></li>
+        <li><a href="#contact-area">Contacto</a></li>
       </ul>
     </nav>
 
@@ -51,7 +52,7 @@
 
     <section id="info-area">
 
-      <h2 class="tittle-info">Nuestro gimnasio cuenta con:</h2>
+      <h2 class="tittle-info">Nuestro gimnasio cuenta con las siguientes actividades</h2>
 
       <div class="container-info">
 
@@ -73,8 +74,7 @@
             <h2>Entrenamiento Funcional</h2>
             <p>Se centra en mejorar la capacidad del cuerpo para realizar actividades cotidianas de manera eficiente y
               segura. En lugar de aislar músculos, este enfoque se basa en movimientos compuestos que imitan situaciones
-              reales. Esto ayuda a mejorar la coordinación, el equilibrio, la fuerza central y la movilidad, lo que es
-              esencial para llevar una vida activa y saludable.
+              reales. Esto ayuda a mejorar la coordinación, el equilibrio, la fuerza central y la movilidad.
             </p>
             <input type="button" value="Solicitar información!">
           </div>
@@ -83,8 +83,8 @@
         <div class="content-info">
           <div class="info-desc">
             <h2>CrossFit</h2>
-            <p>Programa de entrenamiento funcional que combina ejercicios de levantamiento de pesas, cardio y
-              movimientos gimnásticos. Con un enfoque en la variedad y la intensidad, el CrossFit busca mejorar la
+            <p>Combina ejercicios de levantamiento de pesas, cardio y movimientos gimnásticos. Con un enfoque en la
+              variedad y la intensidad, el CrossFit busca mejorar la
               resistencia cardiovascular, la fuerza y la flexibilidad, promoviendo una adaptación física integral a
               través de rutinas desafiantes y diversas.
             </p>
@@ -98,9 +98,7 @@
           <div class="info-desc">
             <h2>Zumba</h2>
             <p>Actividad fitness enérgica y divertida que combina movimientos de baile con ejercicios aeróbicos.
-              Inspirada en ritmos latinos y música contagiosa, esta rutina de baile quema calorías, mejora la
-              coordinación y fortalece el sistema cardiovascular, todo mientras te sumerges en un ambiente festivo y
-              lleno de energía.
+              Esta rutina de baile quema calorías, mejora la coordinación y fortalece el sistema cardiovascular.
             </p>
             <input type="button" value="Solicitar información!">
           </div>
@@ -130,6 +128,7 @@
       <div class="container-cards">
 
         <div class="card">
+          <h2>Básico</h2>
           <img src="./assets/images/Musculacion.jpg" alt="">
           <div class="card-info">
             <p>✅ 5 días a la semana</p>
@@ -141,6 +140,7 @@
         </div>
 
         <div class="card">
+          <h2>Estándar</h2>
           <img src="./assets/images/Musculacion.jpg" alt="">
           <div class="card-info">
             <p>✅ 5 días a la semana</p>
@@ -152,6 +152,7 @@
         </div>
 
         <div class="card">
+          <h2>Premium</h2>
           <img src="./assets/images/Musculacion.jpg" alt="">
           <div class="card-info">
             <p>✅ 5 días a la semana</p>
@@ -162,6 +163,32 @@
           <input type="button" value="Adquirir Plan">
         </div>
 
+      </div>
+
+    </section>
+
+    <section id="contact-area">
+
+      <div class="container-contact">
+        <div class="contact-intro">
+          <h2>Te quedaste con dudas? Consultanos!</h2>
+          <p>Te dejamos, además, algunas de nuestras redes para que chequees nuestros entrenamientos!</p>
+          <div class="social-links">
+            <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i>&nbsp;Whatsapp</a>
+            <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i>&nbsp;Facebook</a>
+            <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i>&nbsp;Instragram</a>
+          </div>
+        </div>
+  
+        <div class="contact-form">
+          <form action="" class="form">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="text" placeholder="Correo Electrónico">
+            <textarea name="" id="" cols="50" rows="8" placeholder="Mensaje..."></textarea>
+            <button type="submit">Enviar</button>
+          </form> 
+        </div>
       </div>
 
     </section>
