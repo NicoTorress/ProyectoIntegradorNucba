@@ -53,6 +53,10 @@ nav{
   transition: 300ms all;
 }
 
+.nav ul li:last-child{
+  display: none;
+}
+
 .nav ul li a:hover{
   color: rgb(58, 184, 46);
 }
@@ -137,24 +141,25 @@ nav{
 
 .content-info {
   width: 80%;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6rem;
+  gap: 3rem;
   background-color: #33333344;
-  border-radius: 50px;
+  border-radius: 20px;
   border: 1px solid #ffffff36;
   flex-wrap: wrap;
 }
 
 .content-info img{
-  width: 700px;
-  height: 700px;
+  width: 50%;
+  /* height: 700px; */
   object-fit: contain;
 }
 
 .info-desc{
-  width: 30%;
+  width: 40%;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -173,8 +178,8 @@ nav{
 }
 
 .info-desc input{
-  width: 50%;
-  padding: 1rem 1.5rem 1rem 1.5rem;
+  width: 250px;
+  padding: 1rem .5rem 1rem .5rem;
   border-radius: 10px;
   background-color: rgb(39, 119, 32);
   color: #ffffff;
@@ -211,6 +216,7 @@ nav{
 .container-cards{
   width: 90%;
   display: flex;
+  justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
@@ -230,11 +236,12 @@ nav{
 
 .card h2 {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
 }
 
 .card img {
-  width: 500px;
+  width: 90%;
   object-fit: contain;
   overflow: hidden;
 }
@@ -294,6 +301,7 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 1rem;
 }
 
@@ -363,7 +371,7 @@ nav{
   background-color: #35ad3f;
 }
 
-/*=========== LOGIN AREA ==============*/
+/*=========== LOGIN/REGISTER AREA ==============*/
 
 #container-login{
   width: 100%;
@@ -375,7 +383,7 @@ nav{
 }
 
 .login{
-  width: 18%;
+  width: 320px;
   height: 400px;
   background-color: #3f3e3e65;
   display: flex;
@@ -387,7 +395,7 @@ nav{
 }
 
 .register{
-  width: 18%;
+  width: 320px;
   height: 550px;
   background-color: #3f3e3e65;
   display: flex;

@@ -20,6 +20,10 @@
     font-size: 1.2rem;
   }
 
+  .nav ul li:last-child{
+    display: flex;
+  }
+
   .nav-user{
     display: none;
   }
