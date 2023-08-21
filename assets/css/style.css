@@ -255,7 +255,7 @@ nav{
 }
 
 .card input{
-  width: 30%;
+  width: 150px;
   padding: .5rem 1.5rem .5rem 1.5rem;
   border-radius: 10px;
   background-color: rgb(39, 119, 32);
@@ -376,7 +376,8 @@ nav{
 #container-login{
   width: 100%;
   min-height: 100vh;
-  background-color: #111111;
+  background: rgb(58,184,46);
+  background: radial-gradient(circle, rgba(58,184,46,0.6432948179271709) 0%, rgba(17,17,17,1) 60%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -385,7 +386,7 @@ nav{
 .login{
   width: 320px;
   height: 400px;
-  background-color: #3f3e3e65;
+  background-color: #3f3e3ec7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -397,7 +398,7 @@ nav{
 .register{
   width: 320px;
   height: 550px;
-  background-color: #3f3e3e65;
+  background-color: #3f3e3ed8;
   display: flex;
   justify-content: center;
   align-items: center;
