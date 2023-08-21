@@ -23,6 +23,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 0 0 0 4rem;
+  position: fixed;
 }
 
 .logo {
@@ -72,6 +73,18 @@ nav{
   font-size: 1.4rem;
 }
 
+/*=========== MENÚ HAMBURGUESA ==============*/
+
+.nav i{
+  font-size: 36px;
+  color: #ffffff;
+  display: none;
+}
+
+#toggle-menu{
+  display: none;
+}
+
 /*=========== HERO AREA ==============*/
 
 #hero-area {
@@ -90,6 +103,7 @@ nav{
   background-color: #00000080;
   border-radius: 10px;
   padding: 1.5rem;
+  text-align: center;
 }
 
 .info-hero h1 span{
@@ -130,6 +144,7 @@ nav{
   background-color: #33333344;
   border-radius: 50px;
   border: 1px solid #ffffff36;
+  flex-wrap: wrap;
 }
 
 .content-info img{
@@ -175,7 +190,7 @@ nav{
  background-color: rgb(45, 138, 37);
 }
 
-/*=========== CARDS AREA ==============*/
+/*=========== PRODUCTS AREA ==============*/
 
 #products-area{
   width: 100%;
@@ -197,6 +212,7 @@ nav{
   width: 90%;
   display: flex;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .card{
@@ -270,6 +286,7 @@ nav{
   align-items: center;
   gap: 5rem;
   background-color: #3030307a;
+  flex-wrap: wrap;
 }
 
 .contact-intro{
@@ -369,6 +386,18 @@ nav{
   color: #ffffff;
 }
 
+.register{
+  width: 18%;
+  height: 550px;
+  background-color: #3f3e3e65;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 50px;
+  color: #ffffff;
+}
+
 .login h2{
   font-size: 1.6rem;
 }
@@ -408,7 +437,7 @@ nav{
   gap: .8rem;
 }
 
-.container-button a{
+.container-button button{
   padding: .5rem 2rem .5rem 2rem;
   border-radius: 10px;
   cursor: pointer;
@@ -416,9 +445,18 @@ nav{
   font-weight: 500;
   transition: 300ms all;
   background-color: #e6e6e6;
+  border: none;
 }
 
-.container-button a:hover{
+.container-button button a{
+  color: #333333;
+}
+
+.container-button button a:hover{
+  color: #ffffff;
+}
+
+.container-button button:hover{
   background-color: rgb(41, 134, 41);
   color: #ffffff;
 }
@@ -429,11 +467,6 @@ nav{
 
 .container-button p a:hover{
   text-decoration: underline;
-}
-
-.register-line a{
-  background-color: #3f3e3e65;
-  padding: 0;
 }
 
 /*=========== FOOTER AREA ==============*/

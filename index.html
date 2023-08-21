@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,17 +22,22 @@
 
     <!-- MENÚ DE NAVEGACIÓN -->
     <nav class="nav">
+      <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="toggle-menu">
+
       <ul>
         <li><a href="#hero-area">Inicio</a></li>
-        <li><a href="#info-area">Sobre Nosotros</a></li>
+        <li><a href="#info-area">Actividades</a></li>
         <li><a href="#products-area">Planes</a></li>
         <li><a href="#contact-area">Contacto</a></li>
+        <li><a href="./assets/pages/login.html">Ingresar</a>
+        </li>
       </ul>
     </nav>
 
     <!-- CARRITO -->
     <div class="nav-user">
-      <a href="">
+      <a href="./assets/pages/login.html">
         <i class="fa-solid fa-user"></i>
         Ingresar
       </a>
@@ -179,7 +185,7 @@
             <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i>&nbsp;Instragram</a>
           </div>
         </div>
-  
+
         <div class="contact-form">
           <form action="" class="form">
             <input type="text" placeholder="Nombre">
@@ -187,7 +193,7 @@
             <input type="text" placeholder="Correo Electrónico">
             <textarea name="" id="" cols="50" rows="8" placeholder="Mensaje..."></textarea>
             <button type="submit">Enviar</button>
-          </form> 
+          </form>
         </div>
       </div>
 
